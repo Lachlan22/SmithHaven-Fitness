@@ -104,12 +104,12 @@ padding: 5 !important;
 }
 .promo-title
 {
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     position:absolute;
-    text-align: center !important;
+    text-align: center;
     width: 100%;
     margin-top: 100px;
-    font-size: 55px;
+    font-size: 58;
     font-weight: 600;
     color: white;
     text-shadow: rgb(0 0 0 / 30%) 0px 4px 5px;
@@ -117,35 +117,51 @@ padding: 5 !important;
 }
 .promo-title-small
 {
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: absolute; 
-    text-align: center !important;
+    text-align: center;
     width: 100%;
     margin-top: 180px;
-    font-size: 55px;
+    font-size: 58;
     font-weight: 600;
-    text-shadow: rgb(0 0 0 / 30%) 0px 4px 5px;
+    text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
     color: white;  
 
 }
 .promo-title-green
 {
     position: absolute;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: rgb(0 0 0 / 30%) 0px 4px 5px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    text-shadow: rgb(0 0 0 / 70%) 0px 2px 5px;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 550;
     width: 100%;
-    text-align:center !important;
+    text-align:center;
     margin-top: 280px;
     color: #BADA55;
+}
+.promo-title-club
+{
+
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+    text-shadow: rgb(0 0 0 / 70%) 0px 2px 5px;
+    font-size: 31.5px;
+    font-weight: 600;
+    width: 100%;
+    text-align:center;
+    margin-top: 350px;
+    color: #fff;
+
 }
 .background img
 {
 
     width:421px;
     height: 1700px;  
-    filter: blur(5px);
+    filter: blur(1px);
 
 
 }
@@ -156,3 +172,112 @@ clear: both;
 display: table;
 
 }
+
+/*----------------SHF Offers------------------*/
+
+#offer
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1700px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+#offer .col-md-6 
+{
+
+    padding: 30px 10px;
+    
+}
+#offer h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    padding-top: 1000px;
+    padding: 50px;
+
+}
+#offer p
+{
+
+    font-family:'Montserrat', sans-serif;
+    font-size: 25;
+    font-weight: 500;
+
+/*----------------Customer Testimonials------------------*/
+
+
+}
+.testimonials
+{
+
+   margin: 50px auto;
+   padding-top: 2500px;
+   padding-bottom: 1000px;
+   background-color: #DBDBDB;
+   
+}
+   img,
+   svg {
+
+    width: 300px;
+
+}
+.testimonials h1
+{
+
+    text-align: center !important;
+    padding: 70px;
+    font-family: 'Montserrat' sans-serif;
+    
+
+}
+.testimonials h3
+{
+
+    text-align: center !important;
+    font-size: 40;
+    font-weight: 1000;
+    color: #000;
+    text-transform: uppercase;
+
+
+}
+.testimonials h3::after
+{
+
+    content: '';
+    background: #000;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+
+}
+.testimonials row
+{
+
+    margin-top: 30px;
+
+}
+.col-md-4
+{
+
+    margin: 40px auto;
+
+}
+.profile 
+{
+
+    padding: 70px 10px 10px;
+    background-color: #fff;
+
+}
+
+
