@@ -1,0 +1,120 @@
+*
+{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+.contact
+{
+
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./images/risen-wang-20jX9b35r_M-unsplash.jpg);
+    background-size: cover;
+    
+    
+}
+.contact 
+{
+    
+    
+
+}
+.contact .content
+{
+
+max-width: 800px;
+text-align: center;
+
+}
+.contact .content h2
+{
+
+font-size: 36px;
+font-weight: 500;
+color: #fff;
+
+}
+.contact .content p
+{
+
+font-weight: 500;
+color: #fff;
+
+}
+#nav-bar
+{
+
+position: sticky;
+top:0;
+z-index: 10;
+position: fixed;
+width: 100%;
+
+}
+.navbar
+{
+
+background-image:linear-gradient(to right, #fff, #fff);
+padding: 2 !important;
+
+
+}
+.navbar-brand img
+{
+
+    height: 70px;
+    padding-left:0px;
+    padding-right: 0px;
+    
+    
+
+}
+.navbar-nav li
+{
+
+    padding: 0 10px;
+    
+
+}
+.navbar-nav li a 
+{
+    
+    color: #000 !important;
+    font-weight: 500;
+    float: right;
+    text-align: left;
+}
+.btn btn-light
+{
+
+    padding-left: 1000px;
+
+}
+
+.fa-user
+{
+    color: #000;
+    font-size: 20px !important;
+
+}
+.navbar-toggler
+{
+
+    outline: none !important;
+
+}
+.navbar-collapse
+{
+
+    flex-direction:column-reverse;
+
+}
