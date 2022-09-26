@@ -3,6 +3,8 @@
 
 <link rel="stylesheet" href="style.css">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
 rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
 crossorigin="anonymous">
@@ -20,6 +22,8 @@ crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
 <script src="https://kit.fontawesome.com/783b01af42.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
 </head>
 
@@ -46,13 +50,8 @@ crossorigin="anonymous"></script>
             </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">MEMBERSHIPS</a>
-              </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">WORKOUTS</a>
-            </li>
             <li>
-           <button type="button"><div class="btn btn-light"><i class="fa-solid fa-user"></i> Log In </button>
+           <button type="button"><div class="btn btn-light"><i class="fa-solid fa-user"></i> Sign Up Today!    </button>
             </li>
             </ul>
           </div>
@@ -65,12 +64,12 @@ crossorigin="anonymous"></script>
 
 <section id="container">
 
-  <div class="col-md-auto">
+  <div class="col-md-auto mx-auto">
     </div>
 <div class="row">
-<div class="Home">
+<div class="home">
 <div class="background">
-<img src="../images/Manliftingweightsgreennikeshoes.png">
+<img src="../SmithHaven Fitness 2022/images/Manliftingweightsgreennikeshoes.png">
 </div>
 <div class="background">
 <img src="../SmithHaven Fitness 2022/images/peoplerunningontreadmilllightimage.png">
@@ -82,8 +81,8 @@ crossorigin="anonymous"></script>
 <p class="promo-title-small">Endure The Challenge.</p>
 <p class="promo-title-green">SmithHaven Fitness</p>
 <p class="promo-title-club">The Right Club For You</p>
-</div>
 </div> 
+</div>
 </div>
 </section>
 
@@ -142,7 +141,7 @@ crossorigin="anonymous"></script>
       </div>
       <div class="col-md-4 text-center">
         <div class="profile">
-        <img src="../SmithHaven Fitness 2022/images/sophia-richards-cRrkMAwPPVE-unsplash.jpg" class="user">
+        <img src="../SmithHaven Fitness 2022/images/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg" class="user">
         <blockquote>"Lorem ipsum dolor sit amet, 
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation 
@@ -160,6 +159,113 @@ crossorigin="anonymous"></script>
 </div>
 
 </section>
+
+<!--------------------------Fitness Blog Page----------------------------->
+
+<section>
+<section class="blog">
+    <h1>Fitness Blog</h1>
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="../SmithHaven Fitness 2022/images/salad image.jpg"></div>
+    <div class="swiper-slide"><img src="../SmithHaven Fitness 2022/images/coffee table watch image.jpg"></div>
+    <div class="swiper-slide"><img src="../SmithHaven Fitness 2022/images/women on treadmill.png"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+</div>
+</div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+const swiper = new Swiper('.swiper', {
+autoplay: {
+  delay: 3000,
+  disabledOnInteraction: false,
+}, 
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+</script>
+
+</section>
+
+<!------------------------------Bottom Banner Info Page-------------------------------------------->
+
+<footer class="footer">
+  <div class="footer-left">
+    <img src="../SmithHaven Fitness 2022/images/smithhavenfitnesslogo.png">
+    <p> Follow us on social media! </p>
+    <div class="socials">
+      <a href="#"><i><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#"><i><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </div>
+
+  <ul class="footer-right">
+    <li>
+      <h2>About Us</h2>
+      <ul class="box">
+        <li><a href="#">Theme Design</a></li>
+        <li><a href="#">Theme Design</a></li>
+        <li><a href="#">Theme Design</a></li>
+        <li><a href="#">Theme Design</a></li>
+        <li><a href="#">Theme Design</a></li>
+      </ul>
+    </li>
+  <li class="feature">
+    <h2>Information</h2>
+
+    <ul class="box">
+      <li><a href="#">Theme Design</a></li>
+      <li><a href="#">Theme Design</a></li>
+      <li><a href="#">Theme Design</a></li>
+      <li><a href="#">Theme Design</a></li>
+      <li><a href="#">Theme Design</a></li>
+    </ul>
+  </li>
+  <li>
+    <h2>Workouts</h2>
+    <ul class="box">
+      <li><a href="#">Theme Design</a></li>
+      <li><a href="#">Theme Design</a></li>
+      <li><a href="#">Theme Design</a></li>
+      <li><a href="#">Theme Design</a></li>
+      <li><a href="#">Theme Design</a></li>
+    </ul>
+  </li>
+  <ul>
+    <div class="footer-bottom">
+      <p>All Rights reserved by &copy; SmithHaven Fitness 2022</p>
+    </div>
+
+</footer>
+
 
 </body>
 
