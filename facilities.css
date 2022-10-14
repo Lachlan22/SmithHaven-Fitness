@@ -1,23 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
+    
 }
-.body
+body
 {
 
+    background-color:#c3b9ad;
     width: 100%;
     height: 100%;
     display: grid;
     align-items: center;
-    background: black;
+    
+    
+    
 }
 #facilities h1
 {
 
-    font-size: 1px;
+    font-size: 50px;
     color: brown;
+    float: right;
+    
+
+}
+#facilities p
+{
+
+    margin-top: 100px;
+
+}
+#nav-bar
+{
+
+position: sticky;
+top:0;
+z-index: 10;
+position: fixed;
+width: 100%;
+
+}
+.navbar
+{
+
+background-image:linear-gradient(to right, #fff, #fff);
+padding: 2 !important;
+
+
+}
+.navbar-brand img
+{
+
+    height: 70px;
+    width: 388.5px;
+    padding-left:0px;
+    padding-right: 0px;
+    
+    
+
+}
+.navbar-nav li
+{
+
+    padding: 0 10px;
+    
+
+}
+.navbar-nav li a 
+{
+    
+    color: #000 !important;
+    font-weight: 500;
+    float: right;
+    text-align: left;
+}
+.button li a
+{
+
+    font-weight: 100;
+
+}
+
+.fa-user
+{
+    color: #000;
+    font-size: 20px !important;
+
+}
+.navbar-toggler
+{
+
+    outline: none !important;
+
+}
+.navbar-collapse
+{
+
+    flex-direction:column-reverse;
+
 }
