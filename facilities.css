@@ -16,6 +16,7 @@ body
     height: 100%;
     display: grid;
     align-items: center;
+    overflow: hidden;
     
     
     
@@ -23,9 +24,14 @@ body
 #facilities h1
 {
 
-    font-size: 50px;
+    font-size: 40px;
     color: brown;
-    float: right;
+    text-align:center;
+    padding: 0px 0px 0px 290px;
+    position: relative;
+    bottom: 470px;
+    margin-left: 260px;
+    
     
 
 }
@@ -33,6 +39,35 @@ body
 {
 
     margin-top: 100px;
+    position: relative;
+    
+}
+.badfont h2
+{
+
+    font-size: 25px;
+    text-align:center;
+    color: black;
+    font-weight: 600;
+    padding: 10px 200px 0px 500px;
+    position: relative;
+    bottom: 470px;
+    left: 130px;
+    text-transform: uppercase;
+    word-wrap: normal;
+
+}
+.location img
+{
+
+    width: 35%;
+    float: right;
+    display: flex;
+    position: relative;
+    right: 130px;
+    bottom: 450px;
+    
+    
 
 }
 #nav-bar
