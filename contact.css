@@ -248,9 +248,10 @@ padding: 2 !important;
 {
     
     color: #000 !important;
-    font-weight: 500;
+    font-weight: 600;
     float: right;
     text-align: left;
+    Font-Family: 'Montserrat', sans-serif;
 
 }
 .btn btn-light
