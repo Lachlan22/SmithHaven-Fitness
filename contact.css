@@ -62,7 +62,7 @@ margin-bottom: 100px;
 .container .contactInfo
 {
 
-width: 50%;
+width: 28%;
 display: flex;
 flex-direction: column;
 
@@ -102,16 +102,17 @@ font-size: 22px;
 .container .contactInfo .box .text h3
 {
 
-    font-weight: 500;
-    color: #a52a2a;
+    font-weight: 300;
+    color: #FF7F7F;
 
 }
 .contactForm
 {
 
-    width: 40%;
+    width: 45%;
     padding: 30px;
     background: #fff;
+    margin-left: 6%;
 
 }
 .contactForm h2
@@ -250,12 +251,19 @@ padding: 2 !important;
     font-weight: 500;
     float: right;
     text-align: left;
+
 }
 .btn btn-light
 {
 
     padding-left: 1000px;
 
+}
+.btn
+{
+
+    font-weight: 700 !important;
+    color: blue;
 }
 
 .fa-user
