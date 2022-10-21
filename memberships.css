@@ -128,7 +128,7 @@ img
 {
 
     padding: 4.5rem 0 2rem;
-    background-color:#c3b9ad;
+    background-color:#eee6d1;
 
 }
 .section__data
@@ -145,8 +145,8 @@ img
 .section__title-border{
 font-size: var(--big--font-size);
 letter-spacing: 1.5px;
+color:#2AA5A5;
 }
-
 .section__subtitle{
     font-size: 50px;
     font-weight: 500;
@@ -167,8 +167,7 @@ letter-spacing: 1.5px;
 .section__title
 {
 
-    -webkit-text-stroke: 1px var(--text-color);
-    color: black;
+    color: 	#2AA5A5;
 
 
 }
@@ -224,6 +223,7 @@ padding: 2 !important;
 {
 
     height: 70px;
+    width: 388.5px;
     padding-left:0px;
     padding-right: 0px;
     
@@ -241,17 +241,17 @@ padding: 2 !important;
 {
     
     color: #000 !important;
-    font-weight: 500;
+    font-weight: 600;
     float: right;
     text-align: left;
+    Font-Family: 'Montserrat', sans-serif;
 }
-.btn btn-light
+.button li a
 {
 
-    padding-left: 1000px;
+    font-weight: 100;
 
 }
-
 .fa-user
 {
     color: #000;
@@ -269,10 +269,18 @@ padding: 2 !important;
 
     flex-direction:column-reverse;
 
+}
+.btn
+{
+
+    font-weight: 700 !important;
+    color: blue;
+}
+
 
 /*--------------------------Navbar-------------------------*/
 
-}
+
 .pricing__container
 {
 
