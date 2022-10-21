@@ -21,6 +21,12 @@ body
     
     
 }
+#facilities
+{
+
+    background-color:#A4AAB5;
+
+}
 #facilities h1
 {
 
@@ -32,13 +38,12 @@ body
     bottom: 470px;
     margin-left: 260px;
     
-    
 
 }
 #facilities p
 {
 
-    margin-top: 100px;
+    margin-top: 100;
     position: relative;
     
 }
@@ -66,6 +71,7 @@ body
     position: relative;
     right: 130px;
     bottom: 450px;
+    
     
     
 
@@ -110,9 +116,10 @@ padding: 2 !important;
 {
     
     color: #000 !important;
-    font-weight: 500;
+    font-weight: 600;
     float: right;
     text-align: left;
+    Font-Family: 'Montserrat', sans-serif;
 }
 .button li a
 {
@@ -120,7 +127,6 @@ padding: 2 !important;
     font-weight: 100;
 
 }
-
 .fa-user
 {
     color: #000;
@@ -138,4 +144,10 @@ padding: 2 !important;
 
     flex-direction:column-reverse;
 
+}
+.btn
+{
+
+    font-weight: 700 !important;
+    color: blue;
 }
